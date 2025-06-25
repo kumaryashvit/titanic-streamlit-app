@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("model.joblib")
+model = joblib.load("titanic-model.joblib")
 
 # App title
 st.title("Titanic Survival Prediction")
